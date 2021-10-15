@@ -17,6 +17,9 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
+// Ans: The nested function can access the variable internal because both of them are declared inside the same scope i.e block scope of myFunction.
+// Since nestedFunction is an inner function of myFunction, it can reach outside of its scope to grab the value of internal variable. This         phenonmenon of an inner function reaching out of its scope to grab value of variables in outer function is called closure.
+        
 
 
 
